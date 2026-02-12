@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal page</title>
+    <style>
+        body {
+            background-color: #6a0dad;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .content {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .nav a {
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav a:hover {
+            color: #ff69b4; 
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        section {
+            background-color: rgba(255, 255, 255, 0.1); /* светло-прозрачный фон */
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        .memes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .memes img {
+            max-width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            transition: transform 0.3s;
+        }
+
+        .memes img:hover {
+            transform: scale(1.05);
+        }
+        hr {
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content center">
+
+    <!-- Навигация -->
+    <div class="nav">
+        <a href="#main">Главная</a>
+        <a href="#facts">Факты</a>
+        <a href="#memes">Мемы</a>
+        <a href="#quotes">Цитаты</a>
+    </div>
+
+    <!-- ГЛАВНАЯ -->
+    <section id="main">
+        <h1>Привет!</h1>
+        <h2>Это моя персональная страница</h2>
+
+        <img src="images/goose.jpeg" alt="Гусь">
+
+        <p>
+            Меня зовут Кирилл.
+        </p>
+
+        <ul>
+            <li>Люблю компьютерные игры</li>
+            <li>Интересуюсь программированием</li>
+            <li>Слушаю музыку</li>
+            <li>Смотрю мемы</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- ФАКТЫ -->
+    <section id="facts">
+        <h1>Факты обо мне</h1>
+
+        <ol>
+            <li>у меня в доте 2к часов</li>
+            <li>Учусь веб-разработке</li>
+            <li>играю в баскетбол</li>
+            <li>Часто играю в компьютерные игры</li>
+            <li>Хочу играть в майн каждый день</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <!-- МЕМЫ -->
+    <section id="memes">
+        <h1>Мои любимые мемы</h1>
+
+        <div class="memes">
+            <img src="images/meme1.jpeg" alt="Мем 1">
+            <img src="images/meme2.jpeg" alt="Мем 2">
+            <img src="images/meme3.png" alt="Мем 3">
+            <img src="images/meme4.jpeg" alt="Мем 4">
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- ЦИТАТЫ -->
+    <section id="quotes">
+        <h1>Любимые цитаты</h1>
+
+        <ul>
+            <li>«Ученье — свет, а неученье — тьма»</li>
+            <li>«Сначала работает — потом красиво»</li>
+            <li>«Лучше сделать просто, чем идеально»</li>
+            <li>«Ошибки — часть обучения»</li>
+        </ul>
+    </section>
+
+</div>
+
+</body>
+</html>
